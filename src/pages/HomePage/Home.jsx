@@ -1,6 +1,6 @@
 import './home.scss'
-import bg from '../assets/images/bg.png'
-import SearchBar from '../components/Searchbar/SearchBar'
+import bg from '../../assets/images/bg.png'
+import SearchBar from '../../components/Searchbar/SearchBar'
 
 const Home = () => {
   return (
