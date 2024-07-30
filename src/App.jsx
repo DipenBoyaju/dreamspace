@@ -3,6 +3,7 @@ import Layout from './layout/Layout'
 import Home from './pages/HomePage/Home'
 import ListPage from './pages/listPage/ListPage'
 import SinglePage from './pages/singlePage/SinglePage'
+import ProfilePage from './pages/profilePage/ProfilePage'
 
 const App = () => {
 
@@ -11,7 +12,8 @@ const App = () => {
       path: '/', element: <Layout />, children: [
         { path: '/', element: <Home /> },
         { path: '/list', element: <ListPage /> },
-        { path: '/:id', element: <SinglePage /> }
+        { path: '/:id', element: <SinglePage /> },
+        { path: '/profile', element: <ProfilePage /> }
       ]
     },
   ])
